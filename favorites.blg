@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: favorites.aux
+The style file: ieeetr.bst
+Database file #1: favorites.bib
+Warning--string name "cdc" is undefined
+--line 650 of file favorites.bib
+Warning--string name "cambma" is undefined
+--line 674 of file favorites.bib
+Warning--string name "athsc" is undefined
+--line 678 of file favorites.bib
+Warning--empty journal in isaacs1954differential
+Warning--there's a number but no series in sterman2000business
+Warning--empty publisher in sterman2000business
+Warning--empty journal in molavi2016foundations
+Warning--empty publisher in bertsekas2004stochastic
+Warning--empty booktitle in multiagent
+Warning--empty publisher in ourbook
+Warning--empty booktitle in conf:nakamoto
+You've used 68 entries,
+            1876 wiz_defined-function locations,
+            863 strings with 14015 characters,
+and the built_in function-call counts, 16288 in all, are:
+= -- 1631
+> -- 616
+< -- 0
++ -- 235
+- -- 167
+* -- 1075
+:= -- 2302
+add.period$ -- 92
+call.type$ -- 68
+change.case$ -- 49
+chr.to.int$ -- 0
+cite$ -- 76
+duplicate$ -- 843
+empty$ -- 1626
+format.name$ -- 167
+if$ -- 4004
+int.to.chr$ -- 0
+int.to.str$ -- 68
+missing$ -- 80
+newline$ -- 231
+num.names$ -- 68
+pop$ -- 261
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 504
+stack$ -- 0
+substring$ -- 931
+swap$ -- 300
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 8
+while$ -- 159
+width$ -- 70
+write$ -- 656
+(There were 11 warnings)

@@ -1,0 +1,205 @@
+% resume.cls
+%
+%    Copyright 2005 Daniel Burrows
+%
+% You may use, modify, and redistribute this file in any way you please, so
+% long as this copyright notice is maintained.
+
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesClass{resume}
+
+\LoadClassWithOptions{article}
+
+% No page numbers by default.
+\pagestyle{empty}
+
+\RequirePackage{calc}
+\RequirePackage{ifthen}
+\RequirePackage{url}
+\RequirePackage{tabularx}
+\RequirePackage{pgf}
+\RequirePackage{pgfshade}
+\RequirePackage{xxcolor}
+
+\RequirePackage{times}
+\RequirePackage[T1]{fontenc}
+
+\RequirePackage[tmargin=.75in,bmargin=.75in]{geometry}
+
+\newlength{\smpagewidth}
+\newlength{\smpageheight}
+
+\setlength{\smpagewidth}{8.5in}
+\setlength{\smpageheight}{11in}
+
+\newcommand{\setpagewidth}[1]{
+	\addtolength{\smpagewidth}{-#1}
+	\addtolength{\textwidth}{-\smpagewidth}
+	\setlength{\smpagewidth}{#1}
+}
+\newcommand{\setpageheight}[1]{
+	\addtolength{\smpageheight}{-#1}
+	\addtolength{\textheight}{-\smpageheight}
+	\setlength{\smpageheight}{#1}
+}
+\newcommand{\setleftmargin}[1]{
+	\addtolength{\textwidth}{\oddsidemargin}
+	\addtolength{\textwidth}{1in}
+	\addtolength{\textwidth}{-#1}
+	\setlength{\oddsidemargin}{-1in}
+	\addtolength{\oddsidemargin}{#1}
+	\setlength{\evensidemargin}{\oddsidemargin}
+}
+\newcommand{\setrightmargin}[1]{
+	\setlength{\textwidth}{\smpagewidth}
+	\addtolength{\textwidth}{-\oddsidemargin}
+	\addtolength{\textwidth}{-1in}
+	\addtolength{\textwidth}{-#1}
+}
+\newcommand{\settopmargin}[1]{
+	\addtolength{\textheight}{\topmargin}
+	\addtolength{\textheight}{1in}
+	\addtolength{\textheight}{\headheight}
+	\addtolength{\textheight}{\headsep}
+	\addtolength{\textheight}{-#1}
+	\setlength{\topmargin}{-1in}
+	\addtolength{\topmargin}{-\headheight}
+	\addtolength{\topmargin}{-\headsep}
+	\addtolength{\topmargin}{#1}
+}
+\newcommand{\setbottommargin}[1]{
+	\setlength{\textheight}{\smpageheight}
+	\addtolength{\textheight}{-\topmargin}
+	\addtolength{\textheight}{-1in}
+	\addtolength{\textheight}{-\footskip}
+	\addtolength{\textheight}{-#1}
+}
+\newcommand{\setallmargins}[1]{
+	\settopmargin{#1}
+	\setbottommargin{#1}
+	\setleftmargin{#1}
+	\setrightmargin{#1}
+}
+
+\setleftmargin{.69in}
+\setrightmargin{.69in}
+\settopmargin{.69in}
+\setbottommargin{.69in}
+
+\definecolor{rulestartcolor}{rgb}{0,0,0}
+\definecolor{ruleendcolor}{rgb}{0.4,0.4,0.4}
+
+\newlength{\headerbuffer}
+\setlength{\headerbuffer}{2pt}
+\newlength{\secskip}
+\setlength{\secskip}{6pt}
+
+\newlength{\@headerscratch}
+
+% Usage: \@setupshading{width}{height}{start}{end}
+\newcommand{\@setupshading}[4]{%
+  \pgfdeclarehorizontalshading{@ruleshading}{#2}{%
+    color(0pt)=(#3); color(#1)=(#4)%
+  }
+}
+
+\newcommand{\pgfrule}[4]{%
+  \begin{pgfpicture}{0pt}{0pt}{#1}{#2}%
+    \pgfdeclarehorizontalshading{@ruleshading}{#2}{%
+      color(0pt)=(#3); color(#1)=(#4)%
+    }
+    \pgfputat{\pgfxy(0,0)}{\pgfbox[left,bottom]{\pgfuseshading{@ruleshading}}}
+  \end{pgfpicture}%
+}
+
+\newcommand{\lrule}[2]{\pgfrule{#1}{#2}{rulestartcolor}{ruleendcolor}}
+\newcommand{\rrule}[2]{\pgfrule{#1}{#2}{ruleendcolor}{rulestartcolor}}
+
+\newcommand{\@authorname}{}
+\newcommand{\@email}{}
+\newcommand{\@streetaddress}{}
+\newcommand{\@citystatezip}{}
+\newcommand{\@phone}{}
+\newcommand{\@webpage}{}
+
+\renewcommand{\author}[1]{\renewcommand{\@authorname}{#1}}
+\newcommand{\email}[1]{\urldef{\@email}{\url}{<#1>}}
+\newcommand{\streetaddress}[1]{\renewcommand{\@streetaddress}{#1}}
+\newcommand{\citystatezip}[1]{\renewcommand{\@citystatezip}{#1}}
+\newcommand{\phone}[1]{\renewcommand{\@phone}{#1}}
+\newcommand{\webpage}[1]{\urldef{\@webpage}{\url}{#1}}
+
+\renewcommand{\maketitle}{{%
+  \setlength{\@headerscratch}{\linewidth*2/3}%
+  \noindent \lrule{\@headerscratch}{1.5pt}%
+  \vspace{\headerbuffer}%
+  \ifthenelse{\equal{\@email}{}}{%
+    \par\nointerlineskip\noindent\makebox[\linewidth]{\textbf{\Large{\@authorname}}}%
+  } {%
+    \par\nointerlineskip\noindent\makebox[\linewidth]{\textbf{\Large{\@authorname\ \@email}}}%
+  }%
+  \vspace{\headerbuffer}%
+  \par\nointerlineskip\noindent%
+  \hspace{\linewidth}%
+  \hspace{-\@headerscratch}%
+  \rrule{\@headerscratch}{1.5pt}%
+  \par\nointerlineskip\noindent%
+  % Typeset webpage/phone in columns if both are specified, or
+  % just on the LHS if only one is.
+  \begin{small}%
+    \ifthenelse{\equal{\@webpage}{}}{%
+      \ifthenelse{\equal{\@phone}{}}{}{\@phone\par\nointerlineskip\noindent}%
+    } {%
+      \ifthenelse{\equal{\@phone}{}}{\@webpage\par\nointerlineskip\noindent}{%
+        \begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}%
+          \@phone & \@webpage%
+        \end{tabular*}%
+        \par\nointerlineskip\noindent%
+      }%
+    }%
+    \ifthenelse{\equal{\@streetaddress}{} \and%
+      \equal{\@citystatezip}{}}{}{%
+      \ifthenelse{\equal{\@streetaddress}{} \or %
+        \equal{\@citystatezip}{}}{%
+          \ClassError{resume}{%
+            Only one of \protect\streetaddress and \protect\citystatezip given
+          }{%
+            You must either define both \protect\streetaddress and \protect\citystatezip,
+            or define neither of them.
+          }%
+        }{%
+%
+          \begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}%
+            \@streetaddress & \@citystatezip%
+          \end{tabular*}%
+        }}%
+%     \ifthenelse{\equal{\@webpage}{}}{}{%
+%       \@webpage%
+%     }%
+  \end{small}
+}}
+
+\renewcommand{\section}[1]{%
+  \goodbreak\vspace{\secskip}%
+  \par\nointerlineskip\noindent\textbf{\textsc{\large\makebox[\linewidth][l]{#1}}}\vspace{\headerbuffer}\par\nointerlineskip\noindent%
+  \lrule{\linewidth}{0.4pt}%
+  \vspace{\headerbuffer}\par\nointerlineskip}
+
+\renewcommand{\subsection}[1]{%
+  \goodbreak\vspace{\secskip}\par\nointerlineskip\vspace{-1em}\textbf{\flushleft{#1}:}\par%
+}
+
+% General catch-all for either educational or job affiliation.
+%
+%  Usage:
+% \affiliation[title]{institution}{years}
+\newcommand{\affiliation}[3][]{%
+  \goodbreak\vspace{\secskip}\par\noindent\begin{tabularx}{\linewidth}{Xr}%
+    {\bfseries #2} & \textit{#3}%
+    \ifthenelse{\equal{#1}{}}{}{%
+      \\ \textbf{#1}%
+    }%
+  \end{tabularx}%
+}%
+

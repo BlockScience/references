@@ -1,0 +1,326 @@
+\begin{thebibliography}{10}
+
+\bibitem{makerdao}
+MakerDao, ``The dai stablecoin system.''
+  https://makerdao.com/whitepaper/DaiDec17WP.pdf, December 2017.
+
+\bibitem{makerdaoPurp}
+N.~Mushegian, D.~Brockman, and M.~Brockman, ``Reference implementation of the
+  decentralized dai stablecoin issuance system.'' http://makerdao.com/purple/,
+  August 2017.
+
+\bibitem{tversky1974judgment}
+A.~Tversky and D.~Kahneman, ``Judgment under uncertainty: Heuristics and
+  biases,'' {\em science}, vol.~185, no.~4157, pp.~1124--1131, 1974.
+
+\bibitem{kahneman1986fairness}
+D.~Kahneman, J.~L. Knetsch, and R.~Thaler, ``Fairness as a constraint on profit
+  seeking: Entitlements in the market,'' {\em The American economic review},
+  pp.~728--741, 1986.
+
+\bibitem{Smith:2001:ABA:570132.570134}
+K.~Smith, R.~Paranjape, and L.~Benedicenti, ``Agent behavior and agent models
+  in unregulated markets,'' {\em SIGAPP Appl. Comput. Rev.}, vol.~9, pp.~2--12,
+  Sept. 2001.
+
+\bibitem{axelrod1987evolution}
+R.~Axelrod {\em et~al.}, ``The evolution of strategies in the iterated
+  prisoner's dilemma,'' {\em The dynamics of norms}, pp.~1--16, 1987.
+
+\bibitem{axelrod1985achieving}
+R.~Axelrod and R.~O. Keohane, ``Achieving cooperation under anarchy: Strategies
+  and institutions,'' {\em World politics}, vol.~38, no.~1, pp.~226--254, 1985.
+
+\bibitem{rabin1993incorporating}
+M.~Rabin, ``Incorporating fairness into game theory and economics,'' {\em The
+  American economic review}, pp.~1281--1302, 1993.
+
+\bibitem{bacsar1998dynamic}
+T.~Ba{\c{s}}ar and G.~J. Olsder, {\em Dynamic noncooperative game theory}.
+\newblock SIAM, 1998.
+
+\bibitem{nash1951non}
+J.~Nash, ``Non-cooperative games,'' {\em Annals of mathematics}, pp.~286--295,
+  1951.
+
+\bibitem{nash1950equilibrium}
+J.~F. Nash {\em et~al.}, ``Equilibrium points in n-person games,'' {\em
+  Proceedings of the national academy of sciences}, vol.~36, no.~1, pp.~48--49,
+  1950.
+
+\bibitem{isaacs1954differential}
+R.~Isaacs, ``Differential games i,'' 1954.
+
+\bibitem{atzei2017survey}
+N.~Atzei, M.~Bartoletti, and T.~Cimoli, ``A survey of attacks on ethereum smart
+  contracts (sok),'' in {\em International Conference on Principles of Security
+  and Trust}, pp.~164--186, Springer, 2017.
+
+\bibitem{gervais2014bitcoin}
+A.~Gervais, G.~Karame, S.~Capkun, and V.~Capkun, ``Is bitcoin a decentralized
+  currency?,'' {\em IEEE security \& privacy}, vol.~12, no.~3, pp.~54--60,
+  2014.
+
+\bibitem{decker2013information}
+C.~Decker and R.~Wattenhofer, ``Information propagation in the bitcoin
+  network,'' in {\em Peer-to-Peer Computing (P2P), 2013 IEEE Thirteenth
+  International Conference on}, pp.~1--10, IEEE, 2013.
+
+\bibitem{sankar2017survey}
+L.~S. Sankar, M.~Sindhu, and M.~Sethumadhavan, ``Survey of consensus protocols
+  on blockchain applications,'' in {\em Advanced Computing and Communication
+  Systems (ICACCS), 2017 4th International Conference on}, pp.~1--5, IEEE,
+  2017.
+
+\bibitem{passino1994lyapunov}
+K.~M. Passino, A.~N. Michel, and P.~J. Antsaklis, ``Lyapunov stability of a
+  class of discrete event systems,'' {\em IEEE transactions on automatic
+  control}, vol.~39, no.~2, pp.~269--279, 1994.
+
+\bibitem{olfati2004consensus}
+R.~Olfati-Saber and R.~M. Murray, ``Consensus problems in networks of agents
+  with switching topology and time-delays,'' {\em IEEE Transactions on
+  automatic control}, vol.~49, no.~9, pp.~1520--1533, 2004.
+
+\bibitem{preciado2015bio}
+V.~M. Preciado, M.~Zargham, C.~Enyioha, C.~Nowzari, S.~Han, M.~Ogura,
+  A.~Jadbabaie, and G.~Pappas, {\em Bio-Inspired Framework for Allocation of
+  Protection Resources in Cyber-Physical Networks}.
+\newblock Cambridge University Press, 2015.
+
+\bibitem{mzth}
+M.~Zargham, {\em fast distributed optimization strategies for resource
+  allocation in networks}.
+\newblock PhD thesis, University of Pennsylvania, 2014.
+
+\bibitem{DBLP:journals/corr/NgetCY17}
+R.~Nget, Y.~Cao, and M.~Yoshikawa, ``How to balance privacy and money through
+  pricing mechanism in personal data market,'' {\em CoRR}, vol.~abs/1705.02982,
+  2017.
+
+\bibitem{zyskind2015decentralizing}
+G.~Zyskind, O.~Nathan, {\em et~al.}, ``Decentralizing privacy: Using blockchain
+  to protect personal data,'' in {\em 2015 IEEE Security and Privacy
+  Workshops}, 2015.
+
+\bibitem{Gilbert:2002:BCF:564585.564601}
+S.~Gilbert and N.~Lynch, ``Brewer's conjecture and the feasibility of
+  consistent, available, partition-tolerant web services,'' {\em SIGACT News},
+  vol.~33, pp.~51--59, June 2002.
+
+\bibitem{SBWP}
+J.~S. Nelson, D.~Henderson, G.~Jones, M.~Roon, M.~Zargham, A.~Bulkin,
+  J.~Brukhman, and K.~Rowe, ``A blockchain-based protocol stack for global
+  commerce and supply chains,'' {\em Sweetbridge White Paper}, September 2017.
+
+\bibitem{kelly1998rate}
+F.~P. Kelly, A.~K. Maulloo, and D.~K. Tan, ``Rate control for communication
+  networks: shadow prices, proportional fairness and stability,'' {\em Journal
+  of the Operational Research society}, vol.~49, no.~3, pp.~237--252, 1998.
+
+\bibitem{rapoport1965prisoner}
+A.~Rapoport and A.~M. Chammah, {\em Prisoner's dilemma: A study in conflict and
+  cooperation}, vol.~165.
+\newblock University of Michigan press, 1965.
+
+\bibitem{bolton2013using}
+M.~L. Bolton, E.~J. Bass, and R.~I. Siminiceanu, ``Using formal verification to
+  evaluate human-automation interaction: A review,'' {\em IEEE Transactions on
+  Systems, Man, and Cybernetics: Systems}, vol.~43, no.~3, pp.~488--503, 2013.
+
+\bibitem{bhargavan2016formal}
+K.~Bhargavan, A.~Delignat-Lavaud, C.~Fournet, A.~Gollamudi, G.~Gonthier,
+  N.~Kobeissi, A.~Rastogi, T.~Sibut-Pinote, N.~Swamy, and S.~Zanella-Beguelin,
+  ``Formal verification of smart contracts,'' in {\em Proceedings of the 2016
+  ACM Workshop on Programming Languages and Analysis for Security-PLAS'16},
+  pp.~91--96, 2016.
+
+\bibitem{fishburn1970arrow}
+P.~C. Fishburn, ``Arrow's impossibility theorem: concise proof and infinite
+  voters,'' {\em Journal of Economic Theory}, vol.~2, no.~1, pp.~103--106,
+  1970.
+
+\bibitem{arrow2010handbook}
+K.~J. Arrow, A.~Sen, and K.~Suzumura, {\em Handbook of social choice and
+  welfare}, vol.~2.
+\newblock Elsevier, 2010.
+
+\bibitem{haug2011option}
+E.~G. Haug and N.~N. Taleb, ``Option traders use (very) sophisticated
+  heuristics, never the black--scholes--merton formula,'' {\em Journal of
+  Economic Behavior \& Organization}, vol.~77, no.~2, pp.~97--106, 2011.
+
+\bibitem{siljak2011decentralized}
+D.~D. Siljak, {\em Decentralized control of complex systems}.
+\newblock Courier Corporation, 2011.
+
+\bibitem{wang1973stabilization}
+S.-H. Wang and E.~Davison, ``On the stabilization of decentralized control
+  systems,'' {\em IEEE Transactions on Automatic Control}, vol.~18, no.~5,
+  pp.~473--478, 1973.
+
+\bibitem{tsitsiklis1984problems}
+J.~N. Tsitsiklis, ``Problems in decentralized decision making and
+  computation.,'' tech. rep., MASSACHUSETTS INST OF TECH CAMBRIDGE LAB FOR
+  INFORMATION AND DECISION SYSTEMS, 1984.
+
+\bibitem{nier2007network}
+E.~Nier, J.~Yang, T.~Yorulmazer, and A.~Alentorn, ``Network models and
+  financial stability,'' {\em Journal of Economic Dynamics and Control},
+  vol.~31, no.~6, pp.~2033--2060, 2007.
+
+\bibitem{ayyub2014risk}
+B.~M. Ayyub, {\em Risk analysis in engineering and economics}.
+\newblock CRC Press, 2014.
+
+\bibitem{sterman2000business}
+J.~D. J.~D. Sterman, {\em Business dynamics: systems thinking and modeling for
+  a complex world}.
+\newblock No.~HD30. 2 S7835 2000, 2000.
+
+\bibitem{babaoglu1993consistent}
+O.~Babaoglu and K.~Marzullo, ``Consistent global states of distributed systems:
+  Fundamental concepts and mechanisms,'' {\em Distributed Systems}, vol.~53,
+  1993.
+
+\bibitem{tanenbaum2007distributed}
+A.~S. Tanenbaum and M.~Van~Steen, {\em Distributed systems: principles and
+  paradigms}.
+\newblock Prentice-Hall, 2007.
+
+\bibitem{lynch1996distributed}
+N.~A. Lynch, {\em Distributed algorithms}.
+\newblock Morgan Kaufmann, 1996.
+
+\bibitem{bertsekas1998network}
+D.~P. Bertsekas, {\em Network optimization: continuous and discrete models}.
+\newblock Athena Scientific Belmont, 1998.
+
+\bibitem{sterman1989modeling}
+J.~D. Sterman, ``Modeling managerial behavior: Misperceptions of feedback in a
+  dynamic decision making experiment,'' {\em Management science}, vol.~35,
+  no.~3, pp.~321--339, 1989.
+
+\bibitem{sterman2002all}
+J.~D. Sterman, ``All models are wrong: reflections on becoming a systems
+  scientist,'' {\em System Dynamics Review}, vol.~18, no.~4, pp.~501--531,
+  2002.
+
+\bibitem{wood2014ethereum}
+G.~Wood, ``Ethereum: A secure decentralised generalised transaction ledger.''
+  \url{http://bitcoinaffiliatelist.com/wp-content/uploads/ethereum.pdf}, 2014.
+\newblock Accessed: 2016-08-22.
+
+\bibitem{pequito2017trade}
+S.~Pequito, V.~M. Preciado, A.-L. Barab{\'a}si, and G.~J. Pappas, ``Trade-offs
+  between driving nodes and time-to-control in complex networks,'' {\em
+  Scientific reports}, vol.~7, p.~39978, 2017.
+
+\bibitem{molavi2016foundations}
+P.~Molavi, A.~Tahbaz-Salehi, and A.~Jadbabaie, ``Foundations of non-bayesian
+  social learning,'' 2016.
+
+\bibitem{jadbabaie2003coordination}
+A.~Jadbabaie, J.~Lin, and A.~S. Morse, ``Coordination of groups of mobile
+  autonomous agents using nearest neighbor rules,'' {\em IEEE Transactions on
+  automatic control}, vol.~48, no.~6, pp.~988--1001, 2003.
+
+\bibitem{bertsekas2004stochastic}
+D.~P. Bertsekas and S.~Shreve, {\em Stochastic optimal control: the
+  discrete-time case}.
+\newblock 2004.
+
+\bibitem{newman2011structure}
+M.~Newman, A.-L. Barabasi, and D.~J. Watts, {\em The structure and dynamics of
+  networks}.
+\newblock Princeton University Press, 2011.
+
+\bibitem{SB-TWP1}
+M.~Zargham, A.~Bulkin, H.~Huang, and J.~S. Nelson, ``Sweetbridge liquidity
+  protocol: Mathematical specifications,'' {\em Sweetbridge Technical White
+  Paper Series}, vol.~1, November 2017.
+
+\bibitem{tversky1981framing}
+A.~Tversky and D.~Kahneman, ``The framing of decisions and the psychology of
+  choice,'' {\em Science}, vol.~211, no.~4481, pp.~453--458, 1981.
+
+\bibitem{tversky1992advances}
+A.~Tversky and D.~Kahneman, ``Advances in prospect theory: Cumulative
+  representation of uncertainty,'' {\em Journal of Risk and uncertainty},
+  vol.~5, no.~4, pp.~297--323, 1992.
+
+\bibitem{acemoglu2012network}
+D.~Acemoglu, V.~M. Carvalho, A.~Ozdaglar, and A.~Tahbaz-Salehi, ``The network
+  origins of aggregate fluctuations,'' {\em Econometrica}, vol.~80, no.~5,
+  pp.~1977--2016, 2012.
+
+\bibitem{acemoglu2015systemic}
+D.~Acemoglu, A.~Ozdaglar, and A.~Tahbaz-Salehi, ``Systemic risk and stability
+  in financial networks,'' {\em The american economic review}, vol.~105, no.~2,
+  pp.~564--608, 2015.
+
+\bibitem{DistCtrlRobotNetw}
+F.~Bullo, J.~Cort\'es, and S.~Mart{\'\i}nez, {\em Distributed Control of
+  Robotic Networks}.
+\newblock Applied Mathematics Series, Princeton University Press, 2009.
+\newblock To appear. Electronically available at
+  http:/$\!$/coordinationbook.info.
+
+\bibitem{Nisan:2007:AGT:1296179}
+N.~Nisan, T.~Roughgarden, E.~Tardos, and V.~V. Vazirani, {\em Algorithmic Game
+  Theory}.
+\newblock New York, NY, USA: Cambridge University Press, 2007.
+
+\bibitem{chzh97}
+D.~Challet and Y.~C. Zhang, ``Emergence of cooperation and organization in an
+  evolutionary game,'' {\em Physica A}, vol.~246, no.~3-4, p.~407, 1997.
+
+\bibitem{olaf97}
+S.~Olafsson, ``Games on networks,'' {\em Proceedings of the IEEE}, vol.~85,
+  no.~10, pp.~1556--1562, 1997.
+
+\bibitem{socialnet}
+C.~C. Aggarwal, {\em Social Network Data Analysis}.
+\newblock Springer, 2011.
+
+\bibitem{fanbook}
+F.~Chung, {\em Spectral Graph Theory}.
+\newblock The American Mathematical Society, 1997.
+
+\bibitem{multiagent}
+V.~Blondel, J.~Hendrickx, A.~Olshevsky, and J.~Tsitsiklis, ``Convergence in
+  multiagent coordination, consensus, and flocking,'' 2005.
+
+\bibitem{Jac08}
+M.~Jackson, {\em Social and Economic Networks}.
+\newblock Princeton University Press, 2008.
+
+\bibitem{boydbook}
+S.~Boyd and L.~Vandenberghe, {\em Convex Optimization}.
+\newblock Cambridge, UK: Cambridge University Press, 2004.
+
+\bibitem{ourbook}
+D.~Bertsekas, A.~Nedi\'c, and A.~Ozdaglar, {\em Convex Analysis and
+  Optimization}.
+\newblock 2003.
+
+\bibitem{article:kroll}
+J.~A. Kroll, I.~C. Davey, and E.~W. Felten, ``{The Economics of Bitcoin Mining
+  or, Bitcoin in the Presence of Adversaries},'' {\em {Workshop on the
+  Economics of Information Security}}, 2013.
+
+\bibitem{conf:nakamoto}
+S.~Nakamoto, ``{Bitcoin: A peer-to-peer electronic cash system},'' 2008.
+
+\bibitem{teutsch2017scalable}
+J.~Teutsch and C.~Reitwie{\ss}ner, ``A scalable verification solution for
+  blockchains.'' \url{https://truebit.io/}, March 2017.
+\newblock Accessed:2017-10-06.
+
+\bibitem{buterin2014ethereum}
+V.~Buterin, ``Ethereum: A next-generation smart contract and decentralized
+  application platform.''
+  \url{https://github.com/ethereum/wiki/wiki/White-Paper}, 2014.
+\newblock Accessed: 2016-08-22.
+
+\end{thebibliography}
